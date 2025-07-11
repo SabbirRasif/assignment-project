@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -22,14 +32,14 @@ nav{
     justify-content: space-between;
     margin: 0px 200px; }
 
-    .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+    /* .open-sans-normal {
+  font-family: "Open Sans",;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+} */
 .nav-title{
     color: #4E47FF;
     font-size: 34px;
