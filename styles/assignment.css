@@ -25,11 +25,15 @@ nav{
     .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  color: #4E47FF;
   font-weight: normal;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+.nav-title{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .btn{
