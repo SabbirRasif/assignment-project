@@ -291,3 +291,39 @@ header {
   border-radius: 10px;
   font-weight: 600;
 }
+
+/* footer */
+
+.footer {
+  background: #f7f8fa;
+  text-align: center;
+  padding: 40px 20px;
+}
+.footer-logo {
+  font-weight: bold;
+  color: #7c3aed;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+.footer p {
+  color: #555;
+  margin-bottom: 20px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.btn:hover{
+    background: #250a57;
+}
