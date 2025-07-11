@@ -292,6 +292,14 @@ header {
   font-weight: 600;
 }
 
+.label{
+      font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+  font-size: 18px;
+}
+
 /* footer */
 
 .footer {
