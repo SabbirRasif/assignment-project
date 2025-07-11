@@ -64,7 +64,7 @@ header{
 .hero h1 span {
   color: #333;
 }
-.hero .btn {
+.btn {
   display: inline-block;
   margin-top: 20px;
   background: #7c3aed;
@@ -73,4 +73,39 @@ header{
   border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+.action-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.action-text {
+  flex: 1;
+}
+.action-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.action-text p {
+  margin-bottom: 20px;
+  color: #666;
+}
+.action-text .btn {
+  background: #7c3aed;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.action-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
