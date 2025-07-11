@@ -10,6 +10,11 @@
   margin: auto;
 }
 
+.container h1{
+    font-size: 65px;
+    text-shadow: 0px 2px 2px rgb(34, 32, 32);
+}
+
 
 nav{
     display: flex;
@@ -90,17 +95,18 @@ header{
   flex: 1;
 }
 .action-text h2 {
-  font-size: 2rem;
+  font-size: 42px;
   margin-bottom: 15px;
 }
 .action-text p {
+    font-size: 24px;
   margin-bottom: 20px;
   color: #666;
 }
 .action-text .btn {
-  background: #7c3aed;
+  background: #4E47FF;
   color: #fff;
-  padding: 10px 25px;
+  padding: 12px 36px;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -108,4 +114,37 @@ header{
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.reviews {
+  text-align: center;
+  padding: 60px 20px;
+  background: #eef0f4;
+  border-radius: 15px;
+  margin: 40px auto;
+}
+.review-content {
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.review-bars {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.review {
+  
+  min-width: 120px;
+}
+.review h3 {
+  color: #7c3aed;
+  font-size: 80px;
+  font-weight: bold;
+}
+.review p {
+  color: #555;
+  font-size: 20px;
 }
